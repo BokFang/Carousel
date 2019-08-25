@@ -1,0 +1,28 @@
+.banner{
+  width:850px;
+  height:510px;
+  margin: 0 auto;
+}
+.banner > .picture{
+  height:100%;
+  width:100%;
+  display: flex;
+  overflow:hidden;
+}
+.banner > .picture > img{
+  height:100%;
+  width:100%;
+}
+.banner > .corner{
+  text-align: center;
+  margin-top: -25px;
+}
+.banner > .corner > span{
+  width: 12px;
+  height:12px;
+  background-color:lightgrey;
+  display: inline-block;
+  margin:0 7px;
+  border-radius: 50%;
+  cursor: pointer;
+}
